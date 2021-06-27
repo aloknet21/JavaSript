@@ -1,0 +1,7 @@
+// String length and retrieving the number of characters
+
+// You have written 180 Characters, you have -40 characters left now.
+
+var tweet = prompt("Compose your tweet:");
+var tweetcount = tweet.length;
+alert("You have written" + tweetcount + "characters, you have" + (140-tweetcount) + "characters remaining.");
